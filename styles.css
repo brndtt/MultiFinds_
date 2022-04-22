@@ -1,0 +1,137 @@
+#title{
+  background-color:#A267AC;
+}
+
+h1{
+  font-family: 'Langar', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 1;
+}
+
+  h3{
+    font-size: 2rem;
+  }
+
+body{
+  font-family: 'Langar', cursive;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar-brand{
+  font-family: 'Single Day';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.logo-image{
+  width: 70%
+}
+
+@media (max-width:1028px){
+#title{
+  text-align: center;
+}
+
+.logo-image{
+  transform: rotate(0);
+  position: static;
+}
+
+}
+#features{
+  padding: 7% 15%;
+  background-color: #F3E6E3;
+  position: relative;
+  z-index: 5%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: black;
+}
+
+.icon:hover{
+  color: #A267AC;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #A267AC;
+  color: black;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#press{
+  background-color: #A267AC;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+#Pricing{
+  background: #F3E6E3;
+}
+
+.container3{
+  text-align: center;
+  padding: 5% 0;
+}
+
+.cardcontainer{
+  text-align: center;
+  padding: 0% 5% 5%;
+}
+
+.card{
+  margin-bottom: 3%;
+}
+
+#cta{
+  background-color: #A267AC;
+  padding: 5% 0;
+}
+
+#footer{
+  background-color: #A267AC;
+}
